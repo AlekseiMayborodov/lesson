@@ -1,0 +1,53 @@
+.breadcrumb {
+  height: 148px;
+  background-color: #f8f3f4;
+}
+
+.breadcrumb__content {
+  width: 1140px;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.breadcrumb__text h1 {
+  color: $mainColor;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.breadcrumb__list {
+  display: flex;
+}
+
+.breadcrumb__list li {
+  list-style-type: none;
+}
+
+.breadcrumb__list li:not(:last-child) {
+  margin-right: 3px;
+}
+
+.breadcrumb__item a {
+  text-decoration: none;
+  color: #636363;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.breadcrumb__item a:hover {
+  color: $mainColor;
+  font-weight: 700;
+}
+
+.shopping__cart {
+  width: 1140px;
+  margin: 0 auto;
+}
